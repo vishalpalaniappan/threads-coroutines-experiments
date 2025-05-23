@@ -4,7 +4,7 @@ import time
 import random
 
 def testFunc():
-    print("asdf")
+    print("test func 1")
     a = 1
 
 class Thread1(threading.Thread):
