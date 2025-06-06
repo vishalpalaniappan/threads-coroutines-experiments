@@ -4,6 +4,7 @@ import sys
 import threading
 from Thread1 import Thread1
 from Thread2 import Thread2
+from Thread3 import Thread3
 
 def main(argv):
     try:
@@ -14,6 +15,7 @@ def main(argv):
         Thread1(1, message_queue)
         Thread2(2, message_queue)
         Thread2(3, message_queue)
+        Thread3(4, message_queue)
 
         print("Main: Threads started and running in background.\n")
 
